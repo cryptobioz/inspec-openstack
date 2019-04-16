@@ -22,4 +22,33 @@ class OpenstackVolume < Inspec.resource(1)
   def exists?
     @volume.nil? ? false : true
   end
+
+  # Copy AWS's create_resource_methods() method
+  def attachments
+    @volume.attachments
+  end
+
+  def availability_zone
+    @volume.availability_zone
+  end
+
+  def display_name
+    @volume.display_name
+  end
+
+  def metadata
+    @volume.metadata
+  end
+
+  def size
+    @volume.size
+  end
+
+  def status
+    @volume.status
+  end
+
+  def volume_type
+    @volume.volume_type
+  end
 end
