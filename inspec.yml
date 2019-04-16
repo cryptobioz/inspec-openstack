@@ -1,0 +1,9 @@
+name: inspec-openstack
+title: Openstack Resource Pack
+maintainer: leo.depriester@camptocamp.com
+summary: This resource pack provides compliance resources for Openstack.
+copyright: leo.depriester@camptocamp.com
+copyright_email: leo.depriester@camptocamp.com
+version: 0.0.1
+license: Apache-2.0
+inspec_version: '>= 3.0'
